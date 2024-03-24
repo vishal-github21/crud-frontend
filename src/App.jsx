@@ -7,9 +7,9 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path='/crud-frontend/' element={<Table/>}></Route>
-          <Route path='/crud-frontend/create' element={<Create/>}></Route>
-          <Route path='/crud-frontend/update/:id' element={<Update/>}></Route>
+          <Route path='/' element={<Table/>}></Route>
+          <Route path='/create' element={<Create/>}></Route>
+          <Route path='/update/:id' element={<Update/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
